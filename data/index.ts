@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/pp1.png",
     spareimg: "",
   },
   {
@@ -136,7 +136,7 @@ export const testimonials = [
   {
     quote:
       "Working with Michael was a transformative experience. His enthusiasm for DevOps, from container orchestration with Kubernetes to integrating advanced monitoring tools, was unmatched. During a critical project, Michael delivered a complete automated solution that reduced system downtime by 60%. If you want to revolutionize your operations, Michael is the person to cal",
-    name: "Sarah Uwayu",
+    name: "Sarah Uwayo",
     title: "CEO of Nirvana Tours",
     profileimg: "/sarah.jpeg"
   },
@@ -199,8 +199,8 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "MLOps Engineer - iHub",
-    desc: "Developed and maintained scalable machine learning pipelines and deployed models using modern MLOps tools and practices at iHub..",
+    title: "MLOps Engineer - AI Innovation Hub",
+    desc: "Voluntarily Developed and maintained scalable machine learning pipelines and deployed models using modern MLOps tools and practices at AI..",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -210,13 +210,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/6a6aQth"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: ""
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/michaels-lumanga-a85812277/"
   },
 ];
