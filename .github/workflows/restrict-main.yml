@@ -1,0 +1,14 @@
+name: Restrict Main Branch Cloning
+
+on: push
+
+jobs:
+  restrict-main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prevent Direct Clone
+        run: |
+          if [ "$(git rev-parse --abbrev-ref HEAD)" = "main" ]; then
+            echo "⚠️ Cloning the main branch is restricted! Use another branch instead."
+            exit 1
+          fi
