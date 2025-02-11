@@ -1,7 +1,3 @@
-Here’s an updated version with the added emphasis on **restricting the `main` branch clone** and allowing users to **download the repository**:  
-
----
-
 # 🚀 Michael Lumanga's DevOps Portfolio  
 
 Welcome to my **DevOps Portfolio**, a showcase of my **projects, experience, testimonials, and technical expertise** in DevOps, automation, cloud infrastructure, and monitoring.  
